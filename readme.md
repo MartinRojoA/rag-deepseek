@@ -18,3 +18,12 @@ Interactúa con la aplicación:
 - Una vez procesado el PDF, escribe tu pregunta en el campo de chat.
 
 - La aplicación generará una respuesta basada en el contenido del PDF.
+
+# Requisitos
+Para ejecutar este proyecto, necesitas instalar las siguientes dependencias:
+
+```
+pip install streamlit langchain pdfplumber faiss-cpu huggingface-hub ollama sentence-transformers
+```
+
+Además, asegúrate de tener configurado y en ejecución el servicio de Ollama con el modelo deepseek-r1:1.5b.
